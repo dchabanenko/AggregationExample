@@ -6,6 +6,8 @@ public class Main {
 	// write your code here
         System.out.println("hello");
         Room r = new Room();
+        r.setName("MyRoom");
+        r.setNumber(1);
         Furniture f = new Furniture();
         f.setName("Table");
         r.addFurniture(f);
